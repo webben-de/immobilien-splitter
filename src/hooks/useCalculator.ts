@@ -49,28 +49,27 @@ export function useCalculator() {
       payoutM,
       payoutK,
     };
-  }, [
-    purchasePrice,
-    equityM,
-    equityK,
-    monthlyRepayment,
-    yearsPassed,
-    marketValue,
-    agentRate,
-    notaryRate,
-    prepaymentPenalty,
-  ]);
+  }, [purchasePrice, equityM, equityK, monthlyRepayment, yearsPassed, marketValue, agentRate, notaryRate, prepaymentPenalty]);
 
   return {
-    purchasePrice, setPurchasePrice,
-    equityM, setEquityM,
-    equityK, setEquityK,
-    monthlyRepayment, setMonthlyRepayment,
-    yearsPassed, setYearsPassed,
-    marketValue, setMarketValue,
-    agentRate, setAgentRate,
-    notaryRate, setNotaryRate,
-    prepaymentPenalty, setPrepaymentPenalty,
+    purchasePrice,
+    setPurchasePrice,
+    equityM,
+    setEquityM,
+    equityK,
+    setEquityK,
+    monthlyRepayment,
+    setMonthlyRepayment,
+    yearsPassed,
+    setYearsPassed,
+    marketValue,
+    setMarketValue,
+    agentRate,
+    setAgentRate,
+    notaryRate,
+    setNotaryRate,
+    prepaymentPenalty,
+    setPrepaymentPenalty,
     stats,
   };
 }
